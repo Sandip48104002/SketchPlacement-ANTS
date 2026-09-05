@@ -1,0 +1,13 @@
+## Larger topology example: abilene (Topology Zoo)
+topology: data/topozoo/Abilene.graphml
+topology_name: abilene
+out_dir: out/abilene
+seed: 8
+
+directed: false
+# Capacity-aware routing: flows prefer higher-capacity links.
+edge_weight_attr: inv_capacity
+
+flow_count: 500000 # Max limit
+flow_model: size_dist
+allow_self_flows: false

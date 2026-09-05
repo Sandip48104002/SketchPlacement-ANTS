@@ -1,0 +1,70 @@
+# =============================================================================
+# Generated outputs, reports, graphs, and experiment artifacts
+# =============================================================================
+
+/out/
+/paper_report/
+/scripts/
+
+# Dataset/generated data. Keep dataset/src and dataset/configs versioned.
+/dataset/out/
+/dataset/data/
+/dataset/venv/
+
+# Phase outputs
+/phase-I/out/
+/phase-II/out/
+/phase-III/out/
+
+# Common result/report files if generated elsewhere
+*.log
+*.csv
+*.jsonl
+*.jsonl.gz
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Keep project docs tracked even though PDFs/CSVs are ignored globally.
+!README.md
+
+# =============================================================================
+# Python
+# =============================================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+.venv/
+venv/
+env/
+.env/
+
+*.egg-info/
+dist/
+build/
+*.egg
+
+# =============================================================================
+# Gurobi
+# =============================================================================
+
+gurobi.log
+*.lp
+*.mps
+*.sol
+
+# =============================================================================
+# OS and editors
+# =============================================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.ipynb_checkpoints/
+*.ipynb

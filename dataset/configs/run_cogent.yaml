@@ -1,0 +1,13 @@
+## Larger topology example: Cogentco (Topology Zoo)
+topology: data/topozoo/Cogentco.graphml
+topology_name: cogentco
+out_dir: out/cogent
+seed: 8
+
+directed: false
+# Capacity-aware routing: flows prefer higher-capacity links.
+edge_weight_attr:
+
+flow_count: 500000 # Max limit
+flow_model: size_dist
+allow_self_flows: false
